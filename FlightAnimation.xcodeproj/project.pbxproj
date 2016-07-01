@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6AFD5F1CF5F09C00A1176C /* flight1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AFD5C1CF5F09C00A1176C /* flight1.gif */; };
+		8F6AFD601CF5F09C00A1176C /* flight2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AFD5D1CF5F09C00A1176C /* flight2.gif */; };
+		8F6AFD611CF5F09C00A1176C /* flight_voice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AFD5E1CF5F09C00A1176C /* flight_voice.wav */; };
+		8F9C2C931CF511FE003BB393 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C921CF511FE003BB393 /* spot.png */; };
+		8F9C2C961CF5151C003BB393 /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C2C951CF5151C003BB393 /* GifView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8F9C2C9B1CF53821003BB393 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C971CF53821003BB393 /* 04.png */; };
+		8F9C2C9C1CF53821003BB393 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C981CF53821003BB393 /* 03.png */; };
+		8F9C2C9D1CF53821003BB393 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C991CF53821003BB393 /* 02.png */; };
+		8F9C2C9E1CF53821003BB393 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C9A1CF53821003BB393 /* 01.png */; };
+		8F9C2CA01CF53B07003BB393 /* car_spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2C9F1CF53B07003BB393 /* car_spot.png */; };
+		8F9C2CA21CF542E0003BB393 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C2CA11CF542E0003BB393 /* Default-568h@2x.png */; };
+		8FDB967A1CF50F81005622D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB96791CF50F81005622D0 /* main.m */; };
+		8FDB967D1CF50F81005622D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB967C1CF50F81005622D0 /* AppDelegate.m */; };
+		8FDB96831CF50F81005622D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB96811CF50F81005622D0 /* Main.storyboard */; };
+		8FDB96851CF50F81005622D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB96841CF50F81005622D0 /* Assets.xcassets */; };
+		8FDB96881CF50F81005622D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB96861CF50F81005622D0 /* LaunchScreen.storyboard */; };
+		8FDB96931CF50F81005622D0 /* FlightAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB96921CF50F81005622D0 /* FlightAnimationTests.m */; };
+		8FDB969E1CF50F81005622D0 /* FlightAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB969D1CF50F81005622D0 /* FlightAnimationUITests.m */; };
+		8FDB96B51CF50FD2005622D0 /* YLAutoLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB96B31CF50FD2005622D0 /* YLAutoLayOut.m */; };
+		8FDB96BD1CF51007005622D0 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB96BC1CF51007005622D0 /* Tools.m */; };
+		8FDB96C41CF51048005622D0 /* FlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB96C31CF51048005622D0 /* FlightViewController.m */; };
+		8FDB96CB1CF51118005622D0 /* zhubo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB96CA1CF51118005622D0 /* zhubo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FDB968F1CF50F81005622D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDB966D1CF50F81005622D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDB96741CF50F81005622D0;
+			remoteInfo = FlightAnimation;
+		};
+		8FDB969A1CF50F81005622D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDB966D1CF50F81005622D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDB96741CF50F81005622D0;
+			remoteInfo = FlightAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F6AFD5C1CF5F09C00A1176C /* flight1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flight1.gif; sourceTree = "<group>"; };
+		8F6AFD5D1CF5F09C00A1176C /* flight2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flight2.gif; sourceTree = "<group>"; };
+		8F6AFD5E1CF5F09C00A1176C /* flight_voice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flight_voice.wav; sourceTree = "<group>"; };
+		8F9C2C921CF511FE003BB393 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
+		8F9C2C941CF5151C003BB393 /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		8F9C2C951CF5151C003BB393 /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		8F9C2C971CF53821003BB393 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		8F9C2C981CF53821003BB393 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		8F9C2C991CF53821003BB393 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		8F9C2C9A1CF53821003BB393 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		8F9C2C9F1CF53B07003BB393 /* car_spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_spot.png; sourceTree = "<group>"; };
+		8F9C2CA11CF542E0003BB393 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../catogory/Default-568h@2x.png"; sourceTree = "<group>"; };
+		8FDB96751CF50F81005622D0 /* FlightAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDB96791CF50F81005622D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FDB967B1CF50F81005622D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FDB967C1CF50F81005622D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FDB96821CF50F81005622D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FDB96841CF50F81005622D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FDB96871CF50F81005622D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FDB96891CF50F81005622D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDB968E1CF50F81005622D0 /* FlightAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDB96921CF50F81005622D0 /* FlightAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightAnimationTests.m; sourceTree = "<group>"; };
+		8FDB96941CF50F81005622D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDB96991CF50F81005622D0 /* FlightAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDB969D1CF50F81005622D0 /* FlightAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightAnimationUITests.m; sourceTree = "<group>"; };
+		8FDB969F1CF50F81005622D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDB96B21CF50FD2005622D0 /* YLAutoLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAutoLayOut.h; sourceTree = "<group>"; };
+		8FDB96B31CF50FD2005622D0 /* YLAutoLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAutoLayOut.m; sourceTree = "<group>"; };
+		8FDB96BA1CF50FF2005622D0 /* CommonDefin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefin.h; sourceTree = "<group>"; };
+		8FDB96BB1CF51007005622D0 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		8FDB96BC1CF51007005622D0 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		8FDB96C11CF5102E005622D0 /* flight_param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flight_param.h; sourceTree = "<group>"; };
+		8FDB96C21CF51048005622D0 /* FlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightViewController.h; sourceTree = "<group>"; };
+		8FDB96C31CF51048005622D0 /* FlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightViewController.m; sourceTree = "<group>"; };
+		8FDB96CA1CF51118005622D0 /* zhubo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhubo.png; path = ../catogory/zhubo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FDB96721CF50F81005622D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB968B1CF50F81005622D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB96961CF50F81005622D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FDB966C1CF50F81005622D0 = {
+			isa = PBXGroup;
+			children = (
+				8FDB96C11CF5102E005622D0 /* flight_param.h */,
+				8FDB96C51CF510D8005622D0 /* resource */,
+				8FDB96AB1CF50FB2005622D0 /* catogory */,
+				8FDB96AC1CF50FB2005622D0 /* Lib */,
+				8FDB96AD1CF50FB2005622D0 /* ViewController */,
+				8FDB96771CF50F81005622D0 /* FlightAnimation */,
+				8FDB96911CF50F81005622D0 /* FlightAnimationTests */,
+				8FDB969C1CF50F81005622D0 /* FlightAnimationUITests */,
+				8FDB96761CF50F81005622D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FDB96761CF50F81005622D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96751CF50F81005622D0 /* FlightAnimation.app */,
+				8FDB968E1CF50F81005622D0 /* FlightAnimationTests.xctest */,
+				8FDB96991CF50F81005622D0 /* FlightAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FDB96771CF50F81005622D0 /* FlightAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB967B1CF50F81005622D0 /* AppDelegate.h */,
+				8FDB967C1CF50F81005622D0 /* AppDelegate.m */,
+				8FDB96811CF50F81005622D0 /* Main.storyboard */,
+				8FDB96841CF50F81005622D0 /* Assets.xcassets */,
+				8FDB96861CF50F81005622D0 /* LaunchScreen.storyboard */,
+				8FDB96891CF50F81005622D0 /* Info.plist */,
+				8FDB96781CF50F81005622D0 /* Supporting Files */,
+			);
+			path = FlightAnimation;
+			sourceTree = "<group>";
+		};
+		8FDB96781CF50F81005622D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96791CF50F81005622D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FDB96911CF50F81005622D0 /* FlightAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96921CF50F81005622D0 /* FlightAnimationTests.m */,
+				8FDB96941CF50F81005622D0 /* Info.plist */,
+			);
+			path = FlightAnimationTests;
+			sourceTree = "<group>";
+		};
+		8FDB969C1CF50F81005622D0 /* FlightAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB969D1CF50F81005622D0 /* FlightAnimationUITests.m */,
+				8FDB969F1CF50F81005622D0 /* Info.plist */,
+			);
+			path = FlightAnimationUITests;
+			sourceTree = "<group>";
+		};
+		8FDB96AB1CF50FB2005622D0 /* catogory */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96BA1CF50FF2005622D0 /* CommonDefin.h */,
+				8FDB96BB1CF51007005622D0 /* Tools.h */,
+				8FDB96BC1CF51007005622D0 /* Tools.m */,
+			);
+			path = catogory;
+			sourceTree = "<group>";
+		};
+		8FDB96AC1CF50FB2005622D0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C2C941CF5151C003BB393 /* GifView.h */,
+				8F9C2C951CF5151C003BB393 /* GifView.m */,
+				8FDB96AE1CF50FD2005622D0 /* 适配方案 */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8FDB96AD1CF50FB2005622D0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96C21CF51048005622D0 /* FlightViewController.h */,
+				8FDB96C31CF51048005622D0 /* FlightViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FDB96AE1CF50FD2005622D0 /* 适配方案 */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB96B21CF50FD2005622D0 /* YLAutoLayOut.h */,
+				8FDB96B31CF50FD2005622D0 /* YLAutoLayOut.m */,
+			);
+			path = "适配方案";
+			sourceTree = "<group>";
+		};
+		8FDB96C51CF510D8005622D0 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C2CA11CF542E0003BB393 /* Default-568h@2x.png */,
+				8F9C2C9F1CF53B07003BB393 /* car_spot.png */,
+				8F9C2C971CF53821003BB393 /* 04.png */,
+				8F9C2C981CF53821003BB393 /* 03.png */,
+				8F9C2C991CF53821003BB393 /* 02.png */,
+				8F9C2C9A1CF53821003BB393 /* 01.png */,
+				8F9C2C921CF511FE003BB393 /* spot.png */,
+				8FDB96CA1CF51118005622D0 /* zhubo.png */,
+				8F6AFD5C1CF5F09C00A1176C /* flight1.gif */,
+				8F6AFD5D1CF5F09C00A1176C /* flight2.gif */,
+				8F6AFD5E1CF5F09C00A1176C /* flight_voice.wav */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FDB96741CF50F81005622D0 /* FlightAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDB96A21CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimation" */;
+			buildPhases = (
+				8FDB96711CF50F81005622D0 /* Sources */,
+				8FDB96721CF50F81005622D0 /* Frameworks */,
+				8FDB96731CF50F81005622D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightAnimation;
+			productName = FlightAnimation;
+			productReference = 8FDB96751CF50F81005622D0 /* FlightAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FDB968D1CF50F81005622D0 /* FlightAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDB96A51CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimationTests" */;
+			buildPhases = (
+				8FDB968A1CF50F81005622D0 /* Sources */,
+				8FDB968B1CF50F81005622D0 /* Frameworks */,
+				8FDB968C1CF50F81005622D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDB96901CF50F81005622D0 /* PBXTargetDependency */,
+			);
+			name = FlightAnimationTests;
+			productName = FlightAnimationTests;
+			productReference = 8FDB968E1CF50F81005622D0 /* FlightAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FDB96981CF50F81005622D0 /* FlightAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDB96A81CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimationUITests" */;
+			buildPhases = (
+				8FDB96951CF50F81005622D0 /* Sources */,
+				8FDB96961CF50F81005622D0 /* Frameworks */,
+				8FDB96971CF50F81005622D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDB969B1CF50F81005622D0 /* PBXTargetDependency */,
+			);
+			name = FlightAnimationUITests;
+			productName = FlightAnimationUITests;
+			productReference = 8FDB96991CF50F81005622D0 /* FlightAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FDB966D1CF50F81005622D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "杨力";
+				TargetAttributes = {
+					8FDB96741CF50F81005622D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8FDB968D1CF50F81005622D0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8FDB96741CF50F81005622D0;
+					};
+					8FDB96981CF50F81005622D0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8FDB96741CF50F81005622D0;
+					};
+				};
+			};
+			buildConfigurationList = 8FDB96701CF50F81005622D0 /* Build configuration list for PBXProject "FlightAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FDB966C1CF50F81005622D0;
+			productRefGroup = 8FDB96761CF50F81005622D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FDB96741CF50F81005622D0 /* FlightAnimation */,
+				8FDB968D1CF50F81005622D0 /* FlightAnimationTests */,
+				8FDB96981CF50F81005622D0 /* FlightAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FDB96731CF50F81005622D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6AFD601CF5F09C00A1176C /* flight2.gif in Resources */,
+				8F6AFD611CF5F09C00A1176C /* flight_voice.wav in Resources */,
+				8FDB96881CF50F81005622D0 /* LaunchScreen.storyboard in Resources */,
+				8F9C2C9E1CF53821003BB393 /* 01.png in Resources */,
+				8FDB96851CF50F81005622D0 /* Assets.xcassets in Resources */,
+				8F9C2C931CF511FE003BB393 /* spot.png in Resources */,
+				8F9C2CA01CF53B07003BB393 /* car_spot.png in Resources */,
+				8F9C2C9D1CF53821003BB393 /* 02.png in Resources */,
+				8F6AFD5F1CF5F09C00A1176C /* flight1.gif in Resources */,
+				8F9C2C9B1CF53821003BB393 /* 04.png in Resources */,
+				8F9C2CA21CF542E0003BB393 /* Default-568h@2x.png in Resources */,
+				8FDB96CB1CF51118005622D0 /* zhubo.png in Resources */,
+				8F9C2C9C1CF53821003BB393 /* 03.png in Resources */,
+				8FDB96831CF50F81005622D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB968C1CF50F81005622D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB96971CF50F81005622D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FDB96711CF50F81005622D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDB967D1CF50F81005622D0 /* AppDelegate.m in Sources */,
+				8FDB96BD1CF51007005622D0 /* Tools.m in Sources */,
+				8FDB96B51CF50FD2005622D0 /* YLAutoLayOut.m in Sources */,
+				8FDB96C41CF51048005622D0 /* FlightViewController.m in Sources */,
+				8FDB967A1CF50F81005622D0 /* main.m in Sources */,
+				8F9C2C961CF5151C003BB393 /* GifView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB968A1CF50F81005622D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDB96931CF50F81005622D0 /* FlightAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDB96951CF50F81005622D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDB969E1CF50F81005622D0 /* FlightAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FDB96901CF50F81005622D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDB96741CF50F81005622D0 /* FlightAnimation */;
+			targetProxy = 8FDB968F1CF50F81005622D0 /* PBXContainerItemProxy */;
+		};
+		8FDB969B1CF50F81005622D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDB96741CF50F81005622D0 /* FlightAnimation */;
+			targetProxy = 8FDB969A1CF50F81005622D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FDB96811CF50F81005622D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDB96821CF50F81005622D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FDB96861CF50F81005622D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDB96871CF50F81005622D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FDB96A01CF50F81005622D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FDB96A11CF50F81005622D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FDB96A31CF50F81005622D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FDB96A41CF50F81005622D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FDB96A61CF50F81005622D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightAnimation.app/FlightAnimation";
+			};
+			name = Debug;
+		};
+		8FDB96A71CF50F81005622D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightAnimation.app/FlightAnimation";
+			};
+			name = Release;
+		};
+		8FDB96A91CF50F81005622D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8FDB96AA1CF50F81005622D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.batar.cn.FlightAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FDB96701CF50F81005622D0 /* Build configuration list for PBXProject "FlightAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDB96A01CF50F81005622D0 /* Debug */,
+				8FDB96A11CF50F81005622D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDB96A21CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDB96A31CF50F81005622D0 /* Debug */,
+				8FDB96A41CF50F81005622D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDB96A51CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDB96A61CF50F81005622D0 /* Debug */,
+				8FDB96A71CF50F81005622D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDB96A81CF50F81005622D0 /* Build configuration list for PBXNativeTarget "FlightAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDB96A91CF50F81005622D0 /* Debug */,
+				8FDB96AA1CF50F81005622D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FDB966D1CF50F81005622D0 /* Project object */;
+}
